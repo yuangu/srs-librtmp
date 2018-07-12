@@ -5,7 +5,7 @@
 */
 #include <windows.h>
 #include <stdio.h>
-#include "..\src\srs\srs_librtmp.h"
+#include "..\src\srs-librtmp\libs\srs_librtmp.hpp"
 
 int main(int argc, char** argv)
 {

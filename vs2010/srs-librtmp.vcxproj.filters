@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\srs-librtmp\core\srs_core.cpp">
+      <Filter>srs-librtmp\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\core\srs_core_autofree.cpp">
+      <Filter>srs-librtmp\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\core\srs_core_mem_watch.cpp">
+      <Filter>srs-librtmp\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\core\srs_core_performance.cpp">
+      <Filter>srs-librtmp\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\kernel\srs_kernel_aac.cpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\kernel\srs_kernel_buffer.cpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\kernel\srs_kernel_codec.cpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\kernel\srs_kernel_consts.cpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\kernel\srs_kernel_error.cpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\kernel\srs_kernel_file.cpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\kernel\srs_kernel_flv.cpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\kernel\srs_kernel_log.cpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\kernel\srs_kernel_mp3.cpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\kernel\srs_kernel_stream.cpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\kernel\srs_kernel_ts.cpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\kernel\srs_kernel_utility.cpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\libs\srs_lib_bandwidth.cpp">
+      <Filter>srs-librtmp\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\libs\srs_lib_simple_socket.cpp">
+      <Filter>srs-librtmp\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\libs\srs_librtmp.cpp">
+      <Filter>srs-librtmp\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\protocol\srs_http_stack.cpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\protocol\srs_protocol_buffer.cpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\protocol\srs_protocol_json.cpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\protocol\srs_protocol_kbps.cpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\protocol\srs_raw_avc.cpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\protocol\srs_rtmp_amf0.cpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\protocol\srs_rtmp_handshake.cpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\protocol\srs_rtmp_io.cpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\protocol\srs_rtmp_msg_array.cpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\protocol\srs_rtmp_stack.cpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\protocol\srs_rtmp_utility.cpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\srs-librtmp\protocol\srs_rtsp_stack.cpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="srs-librtmp">
+      <UniqueIdentifier>{1f40d070-92c9-4031-aa23-5558f811d4cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srs-librtmp\core">
+      <UniqueIdentifier>{2066eb7a-a35a-418c-8645-9b68a6393669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srs-librtmp\kernel">
+      <UniqueIdentifier>{cf343bcb-d724-4dc5-ae5b-629fb96cabf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srs-librtmp\libs">
+      <UniqueIdentifier>{11d3f160-d42e-4f01-8a71-02e186e337e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srs-librtmp\protocol">
+      <UniqueIdentifier>{e5dbe81f-ccd2-40c5-92ae-a88bb79d75b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\srs-librtmp\core\srs_core.hpp">
+      <Filter>srs-librtmp\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\core\srs_core_autofree.hpp">
+      <Filter>srs-librtmp\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\core\srs_core_mem_watch.hpp">
+      <Filter>srs-librtmp\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\core\srs_core_performance.hpp">
+      <Filter>srs-librtmp\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\kernel\srs_kernel_aac.hpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\kernel\srs_kernel_buffer.hpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\kernel\srs_kernel_codec.hpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\kernel\srs_kernel_consts.hpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\kernel\srs_kernel_error.hpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\kernel\srs_kernel_file.hpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\kernel\srs_kernel_flv.hpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\kernel\srs_kernel_log.hpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\kernel\srs_kernel_mp3.hpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\kernel\srs_kernel_stream.hpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\kernel\srs_kernel_ts.hpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\kernel\srs_kernel_utility.hpp">
+      <Filter>srs-librtmp\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\libs\srs_lib_bandwidth.hpp">
+      <Filter>srs-librtmp\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\libs\srs_lib_simple_socket.hpp">
+      <Filter>srs-librtmp\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\libs\srs_librtmp.hpp">
+      <Filter>srs-librtmp\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\define.h">
+      <Filter>srs-librtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\protocol\srs_http_stack.hpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\protocol\srs_protocol_buffer.hpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\protocol\srs_protocol_json.hpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\protocol\srs_protocol_kbps.hpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\protocol\srs_raw_avc.hpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\protocol\srs_rtmp_amf0.hpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\protocol\srs_rtmp_handshake.hpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\protocol\srs_rtmp_io.hpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\protocol\srs_rtmp_msg_array.hpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\protocol\srs_rtmp_stack.hpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\protocol\srs_rtmp_utility.hpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\srs-librtmp\protocol\srs_rtsp_stack.hpp">
+      <Filter>srs-librtmp\protocol</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
